@@ -7,6 +7,14 @@ The V8 **engine wrapper** is currently provided by the [prepare/Espresso](https:
 
 This project is still a **work-in-progress** and master branch is currently considered **unstable**.
 
+## Stack
+Windows 10
+Visual Studio 2017
+C# 7
+.NET 4
+V8 (from Node.JS)
+Javascript
+
 ## License (MIT)
 Copyright (c) 2018 cornmonger
 
