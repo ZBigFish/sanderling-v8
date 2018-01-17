@@ -13,8 +13,8 @@ Visual Studio 2017
 C# 7  
 .NET 4  
 V8 (from Node.JS)  
-Javascript (ECMA 6)
-Sanderling (MemoryReading DLL)
+Javascript (ECMA 6)  
+Sanderling (MemoryReading DLL)  
 Eve Online
 
 ## License (MIT)
