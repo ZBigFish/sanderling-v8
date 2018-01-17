@@ -23,7 +23,7 @@ Sanderling (MemoryReading DLL)
 Eve Online
 
 ## Build
-Build the solution once and then copy **lib/libespr.dll** (Espresso's patched Node.JS DLL) to the **bin/<Release|Debug>** directory.
+Build the solution once and then manually copy **lib/libespr.dll** to the **bin/<Release|Debug>** directory. That file is Espresso's patched version of Node.JS, built as a DLL.
 
 ## License (MIT)
 Copyright (c) 2018 cornmonger
