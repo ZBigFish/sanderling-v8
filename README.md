@@ -13,7 +13,7 @@ Visual Studio 2017
 C# 7  
 .NET 4  
 V8 (from Node.JS)  
-Javascript
+Javascript (ECMA 6)
 
 ## License (MIT)
 Copyright (c) 2018 cornmonger
