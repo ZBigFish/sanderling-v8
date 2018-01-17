@@ -7,6 +7,11 @@ The V8 **engine wrapper** is currently provided by the [prepare/Espresso](https:
 
 This project is still a **work-in-progress** and master branch is currently considered **unstable**.
 
+# Design
+The embedded V8 engine provides the bot with a core low-level JS library to handle basic UI input and output. The core libraries should hand basic logic nothing more advanced than "fly here", "read this", "attack that", "scan for bad guys".
+
+For more the complex logic that actually **runs** the bot, Sanderling-V8 will communicate with a Node.JS service running on the same system via **ZeroMQ** (todo).
+
 ## Stack
 Windows 10  
 Visual Studio 2017  
@@ -16,6 +21,9 @@ V8 (from Node.JS)
 Javascript (ECMA 6)  
 Sanderling (MemoryReading DLL)  
 Eve Online
+
+## Build
+Build the solution once and then copy **libespr.dll** (Espresso's patched Node.JS DLL) to the **bin/<Release|Debug>** directory.
 
 ## License (MIT)
 Copyright (c) 2018 cornmonger
