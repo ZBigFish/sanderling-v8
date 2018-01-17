@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sanderling-v8", "sanderling-v8.csproj", "{0F0270BE-4C44-4E56-8ACE-C37F33F3745E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F0270BE-4C44-4E56-8ACE-C37F33F3745E}.Debug|Any CPU.ActiveCfg = Release|x64
+		{0F0270BE-4C44-4E56-8ACE-C37F33F3745E}.Debug|Any CPU.Build.0 = Release|x64
+		{0F0270BE-4C44-4E56-8ACE-C37F33F3745E}.Debug|x64.ActiveCfg = Release|x64
+		{0F0270BE-4C44-4E56-8ACE-C37F33F3745E}.Debug|x64.Build.0 = Release|x64
+		{0F0270BE-4C44-4E56-8ACE-C37F33F3745E}.Release|Any CPU.ActiveCfg = Release|x64
+		{0F0270BE-4C44-4E56-8ACE-C37F33F3745E}.Release|x64.ActiveCfg = Release|x64
+		{0F0270BE-4C44-4E56-8ACE-C37F33F3745E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7673C7F4-9A25-4E13-B799-B2E454F0C9D1}
+	EndGlobalSection
+EndGlobal
