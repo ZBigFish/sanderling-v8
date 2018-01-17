@@ -8,7 +8,7 @@ The V8 **engine wrapper** is currently provided by the [prepare/Espresso](https:
 This project is still a **work-in-progress** and the *master* branch is currently considered **unstable**.
 
 # Design
-The embedded V8 engine provides the bot with a **core low-level** JS library to handle basic UI input and output. The core libraries should hand basic logic nothing more advanced than *"fly here"*, *"read this"*, *"attack that"*, *"scan for bad guys"*.
+The embedded V8 engine provides the bot with a **core low-level** JS library to handle basic UI input and output. The core libraries should hand **basic logic** nothing more advanced than *"fly here"*, *"read this"*, *"attack that"*, *"scan for bad guys"*.
 
 For the more complex logic that actually **runs** the bot, Sanderling-V8 will **communicate** with a **Node.JS** service running on the same system via **ZeroMQ** (todo).
 
