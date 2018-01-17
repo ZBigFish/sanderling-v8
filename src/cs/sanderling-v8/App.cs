@@ -105,11 +105,12 @@ namespace sanderling_v8
 
             // load the bootstrap / interface class; EspressV8Interface
             loadJsFile("sanderling-v8-lib/require");
-            _jsContext.Execute("(function(v8AppIface){ require(['sanderling-v8/bootstrap'], function(bootstrap) { bootstrap.init(todo); }); })(todo);");
-            
+            // _jsContext.Execute("(function(v8AppIface){ require(['sanderling-v8/bootstrap'], function(bootstrap) { bootstrap.init(todo); }); })(todo);");
+
 
             // test interface
-            var version = _jsContext.Execute("(function() { var res = null; require(['sanderling-v8/v8/interface/Espresso'], function(EspressoV8Interface) { res = new EspressoV8Interface().getVersion(); } ); return res; })();");
+            var version = "0.0.0";
+            //var version = _jsContext.Execute("(function() { var res = null; require(['sanderling-v8/v8/interface/Espresso'], function(EspressoV8Interface) { res = new EspressoV8Interface().getVersion(); } ); return res; })();");
             if (!VERSION.Equals(version)) {
                 throw new Exception("Cannot init espresso: JS class file not loaded or version mismatch.");
             }
@@ -173,7 +174,7 @@ namespace sanderling_v8
             var ContextMenu = eveMemory?.Value?.Menu?.FirstOrDefault();
             var ContextMenuFirstEntry = ContextMenu?.Entry?.FirstOrDefault();
 
-            var version = _jsContext.Execute("(function() { var res = null; require(['sanderling-v8/v8/interface/Espresso'], function(EspressoV8Interface) { res = EspressoV8Interface.singleton().onTick(); } ); return res; })();");
+            //var version = _jsContext.Execute("(function() { var res = null; require(['sanderling-v8/v8/interface/Espresso'], function(EspressoV8Interface) { res = EspressoV8Interface.singleton().onTick(); } ); return res; })();");
         }
 
         private void loadJsClassFile(string classpath, string classname)
