@@ -3,9 +3,9 @@ The memory inspection features of the **Sanderling** bot for **Eve Online** comb
 
 This project makes use of the **memory scanning** library from the [Arcitectus/Sanderling](https://github.com/Arcitectus/Sanderling) project.
 
-The V8 engine wrapper is currently provided by the [prepare/Espresso](https://github.com/prepare/Espresso) project.
+The V8 **engine wrapper** is currently provided by the [prepare/Espresso](https://github.com/prepare/Espresso) project.
 
-This project is still a work-in-progress and master branch is currently considered unstable.
+This project is still a **work-in-progress** and master branch is currently considered **unstable**.
 
 ## License (MIT)
 Copyright (c) 2018 cornmonger
